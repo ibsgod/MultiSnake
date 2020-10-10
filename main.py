@@ -1,9 +1,9 @@
 import sys
 import time
-from queue import Queue
-from random import random, randint
+from random import randint
+import os
+import pygame
 
-import pygame, os
 
 class Player:
     def __init__(self):
